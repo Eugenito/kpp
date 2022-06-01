@@ -21,4 +21,8 @@ public class Fields {
         this.field3 = value;
     }
 
+    public Integer getLength(){
+        return field2.length();
+    }
+
 }
